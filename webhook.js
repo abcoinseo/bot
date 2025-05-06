@@ -3,7 +3,7 @@ export default async function handler(req, res) {
     return res.status(405).send('Only POST allowed');
   }
 
-  const TOKEN = "7036988768:AAE-W_MTK2e0Tp3Svrkne0QvoMaip-9zbv4";
+  const TOKEN = "7036988768:AAE-W_MTK2e0Tp3Svrkbv4";
   const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
   const IMAGE_URL = "https://i.postimg.cc/nMbWRFB0/Leonardo-Phoenix-10-A-modern-mobile-payment-welcome-banner-in-1.jpg";
 
